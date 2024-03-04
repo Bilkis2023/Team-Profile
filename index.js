@@ -137,15 +137,9 @@ function init() {
             })
     }
     function buildTeam() {
-        fs.writeFileSync(outputPath, /src/page-template.js);
+        fs.writeFileSync(outputPath, render(teamMembers),"utf-8" );
         console.log(`Data has been written to the file successfully to index.html`); 
     } 
-
-    // function buildTeam(){
-    // .then((answers) => writeFileAsync('index.html', generateHTML(answers)))
-    // .then(() => console.log('Successfully wrote to index.html'))
-    // .catch((err) => console.error(err));
-  
 
     createManager()
 }
