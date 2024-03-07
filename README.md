@@ -26,7 +26,7 @@ Technology Used
 
 ## image
 
-![screenShot](teamProfile.jpg)
+![screenShot](./image/teamProfile.jpg)
 
 
 
