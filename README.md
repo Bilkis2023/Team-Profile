@@ -80,7 +80,7 @@ Technology Used
     * When a user decides to finish building their team then they exit the application, and the HTML is generated.
 
 
-    # MIT License
+   :point_right: # MIT License
 
 Copyright (c) 2024  Mst Bilkis Naher
 
